@@ -12,8 +12,13 @@ EMNIST dataset: https://www.kaggle.com/crawford/emnist
 The dataset needed some preprocessing steps (resizing, flipping, normalisation)
 # Model Evaluation:
 After playing around quite some time with tensorflow convention, struggles with TensorflowJS in an Angular project and some trianing time, I came up with following results:
+
+
 ![loss](https://user-images.githubusercontent.com/48522299/143719218-4fe6f976-6e51-4369-9128-82e186dc2c0d.png)
+
+
 ![acc](https://user-images.githubusercontent.com/48522299/143719219-d9cc646b-bf3e-4e15-8020-38a495bac204.png)
+
 
 # Model Implementation:
 As shown above, the model has the following structure:
