@@ -22,31 +22,10 @@ After playing around quite some time with tensorflow convention, struggles with 
 
 # Model Implementation:
 As shown above, the model has the following structure:
-Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- conv2d (Conv2D)             (None, 28, 28, 8)         208       
-                                                                 
- max_pooling2d (MaxPooling2D  (None, 14, 14, 8)        0         
- )                                                               
-                                                                 
- conv2d_1 (Conv2D)           (None, 10, 10, 16)        3216      
-                                                                 
- max_pooling2d_1 (MaxPooling  (None, 5, 5, 16)         0         
- 2D)                                                             
-                                                                 
- flatten (Flatten)           (None, 400)               0         
-                                                                 
- dense (Dense)               (None, 84)                33684     
-                                                                 
- dense_1 (Dense)             (None, 26)                2210      
-                                                                 
-=================================================================
-Total params: 39,318
-Trainable params: 39,318
-Non-trainable params: 0
-_________________________________________________________________
+
+
+![image](https://user-images.githubusercontent.com/48522299/143719379-201e9722-c26b-43e1-92cb-147188ff60c4.png)
+
 
 The model was trained using Google Colab, where it was possible to upload the csv-files form Kaggle.
 In order to run in a Angular application, the model and trained weights needed to be exported using TensorflowJS ( https://www.tensorflow.org/js )
