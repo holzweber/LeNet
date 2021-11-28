@@ -4,7 +4,8 @@ In the following application you can draw some letters and do some predictions:
 https://christopher-holzweber.com/leNet/
 
 
-![image](https://user-images.githubusercontent.com/48522299/143735148-d02b75b7-3a67-42f9-99f7-b925b111c6bf.png)
+![image](https://user-images.githubusercontent.com/48522299/143735155-0da6e9f1-e577-40d2-9d00-6d924d4ff5b1.png)
+
 
 
 # About LeNet:
