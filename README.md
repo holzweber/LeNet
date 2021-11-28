@@ -2,6 +2,11 @@
 Jupyter Notebook: Training a CNN for Letter Recognition using EMNIST/letters dataset and the LeNet network architecture with Tensorflow/Keras
 In the following application you can draw some letters and do some predictions:
 https://christopher-holzweber.com/leNet/
+
+
+![image](https://user-images.githubusercontent.com/48522299/143735148-d02b75b7-3a67-42f9-99f7-b925b111c6bf.png)
+
+
 # About LeNet:
 The model which is used for prediciton is based on LeNet which was first introduced in 1989 by Yann LeCun et al. It is a convolutional neural netowork structure which was used for applied to handwritten zip code recognition.
 During the first lecture on CNNs in one of my courses 'Deep Learning and Neural Nets 1' at my university, I decided to implement the LeNet architecture by myself. In the following image, you can see the network architecture of the implemented CNN:
